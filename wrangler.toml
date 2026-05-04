@@ -1,0 +1,11 @@
+name = "nabat-dev"
+main = "src/index.ts"
+compatibility_date = "2026-05-04"
+
+routes = [
+  { pattern = "nabat.dev/*", zone_name = "nabat.dev" }
+]
+
+[[r2_buckets]]
+binding = "ASSETS"
+bucket_name = "nabat"
